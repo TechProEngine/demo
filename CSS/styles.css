@@ -1,0 +1,529 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis|Inconsolata|Josefin+Sans|Lobster|Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Alata|Oswald:500&display=swap');
+*{
+  margin:0%;
+  padding: 0%;
+  text-decoration: none;
+  font-family: Dosis;
+ 
+}
+.fav{
+	color:orange;
+}
+.logo{
+    position:relative;
+    width: 40px;
+    height:40px;
+    border-radius: 100%;
+    margin-left:10px;
+    overflow: hidden;
+    padding:-20px;
+}
+/* Error Message c */
+
+#layoutError {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+  }
+  #layoutError #layoutError_content {
+	min-width: 0;
+	flex-grow: 1;
+  }
+  #layoutError #layoutError_footer {
+	min-width: 0;
+  }
+  
+  .img-error {
+	max-width: 20rem;
+  }
+  
+.text-error{
+    padding:10px;
+    text-transform: none;
+    font-size: 13px;
+}
+/* navbar styling  */
+
+.navbar{
+	background-color:#131401;
+	width: 100%;
+}
+
+.brand{
+	color:#fff;
+	margin-left:30px;
+	text-transform:capitalize;
+	letter-spacing:3px;
+	font-family: Lobster;
+	text-shadow: 1px 2px 2px rgba(250, 250, 250);
+	font-weight: bold;
+	font-size:18px;
+}
+
+ .navbar a:hover{
+ 	text-decoration: none;
+ }
+
+.carousel {
+  margin-bottom: 2rem;
+  margin-top: 3rem;
+
+}
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+.carousel-item {
+  height: 32rem;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+
+.box{
+  	background: linear-gradient(to bottom right, #902086); color:orange;
+  	margin-top: 2%;
+	  margin-bottom:1%;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Roboto Condensed';
+    overflow: hidden;
+}
+
+ .site-title, .site-desc{
+ 	  color:#fff;
+ }
+ #title{
+     color: #fff;
+     text-transform:capitalize;
+     text-decoration:underline;
+     text-decoration-color: #fff;
+     font-size:80px;
+     margin-top:-35%;
+ }
+
+ .site-title{
+   	font-family:lobster;
+   	text-transform:uppercase;
+   	text-shadow:  0 10px 10px rgba(0, 5, 0, 0.10);
+   	margin-top:-40%;
+   	padding:20px;
+   	margin-bottom: 5%;
+   	font-size:50px;
+ }
+.site-desc{
+	font-family:Oswald;
+	text-shadow:  0 10px 10px rgba(0, 5, 0, 0.5);
+	font-size:25px;
+	padding-left:5%;
+	padding:20px;
+}
+
+.box{
+	background: linear-gradient(to bottom right, #902086); color:orange;
+	margin-top: 2%;
+	margin-bottom:1%;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Roboto Condensed';
+    overflow: hidden;
+}
+.heading-3{
+	color:orange;
+	text-transform: capitalize;
+
+}
+.typed{
+	color:orange;
+}
+.section02{
+	position:relative;
+	background-color: none;
+	width:100%;
+	overflow: hidden;
+	margin-bottom: 1%;
+}
+.section02 .row{
+	width:90%;
+	margin-left:5%;
+	overflow: hidden;
+}
+.jumbotron{
+	position:relative;
+	width:80%;
+	box-sizing: border-box;
+	box-shadow: 0 15px 15px rgba(0, 5, 0, 0.5);
+	border-radius:2px;
+}
+
+.form-group{
+    position: relative;
+    width: 100%;
+    margin-right: 60px;
+    margin-top: -10px;
+}
+
+.form-group input{
+    width: 100%;
+    padding: 15px 0px;
+    font-size: 15px;
+    color:gray;
+    margin-bottom:5px;
+    margin-top: 5px;
+    border: none;
+    border-bottom:3px solid #fff;
+    outline: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 19px;
+    letter-spacing: 2px;
+    background:transparent;
+    text-transform: capitalize;
+}
+.form-group input:hover{
+	border-bottom:3px solid orange;
+	transition: .5s ease-in;
+	text-transform: uppercase;
+	transform: translateY(20%);
+	margin-bottom: 5px;
+}
+.form-group small{
+	font-size: 15px;
+	text-transform: lowercase;
+
+}
+/* for datepicker Element*/
+#date-picker{
+  margin-top: 5px;
+}
+.form-group .info{
+	padding-left: 10px;
+  	overflow: hidden;
+}
+.form-group label{
+   	position: absolute;
+    color:gray;
+    top:0px;
+    left:0px;
+    font-size: 20px;
+    font-weight:normal;
+    font-family: monospace;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    padding: 15px 0px;
+    pointer-events: none;
+    transition: .5s;
+}
+.form-group input:focus ~ label,
+.form-group input:valid ~ label{
+    top:-19px;
+    left:0px;
+    color:#03a9f4;
+    font-size: 16px;
+    font-family: Alata;
+    letter-spacing: 2px;
+}
+.form-flex{
+  	width: 100%;
+    margin-top:-2%;
+    margin-bottom: 2%;
+}
+.info .info{
+    height:100px;
+}
+.form-group textarea{
+	width: 100%;
+	font-family:Alata;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color:gray;
+    padding-left:10px;
+}
+
+#custom-button{
+	padding: 10px;
+	font-weight: bolder;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+#custom-text{
+	margin-left:10px;
+	color:#aaa;
+}
+ /*Upload file declaration*/
+.form-group  .label{
+   	position: relative;
+    color:gray;
+    left:5px;
+    font-size: 20px;
+    font-family: monospace;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    pointer-events: none;
+    transition: .5s;
+    margin-top: 2%;
+}
+.form .btn-secondary{
+	margin-left:10px;
+}
+
+/*Submit botton data to database <function side (PHP)> */
+.form-group .save-btn{
+	border:2px solid #fff;
+	border-top-left-radius: 20%;
+	border-bottom-right-radius: 20%;
+	border-top-right-radius: 1%;
+	border-bottom-left-radius: 1%;
+	font-size:20px;
+	font-family:Lobster;
+	text-transform: capitalize;
+	box-sizing: border-box;
+	margin-left: 60%;
+	transition:.3s ease-in;
+	cursor:pointer;
+}
+.form-group .save-btn:hover{
+	border-top-right-radius: 20%;
+	border-bottom-left-radius: 20%;
+	border-top-left-radius: 1%;
+	border-bottom-right-radius: 1%;
+	transition:.3s ease-out;
+	border: 2px solid #fff;
+	color: #fff;
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.save-btn .fa{
+	display: none;
+	color: #fff;
+}
+.load-btn .fa{
+	display:inline-block;
+}
+.fa-upload{
+	color:#fff;;
+}
+footer .section003 .heading-6{
+	font-size:13px;
+	color:#0c9c41;
+
+}
+.section003{
+	background-color: lightgray;
+	height: 50px;
+
+}
+
+/*media query 320px*/
+@media(max-width: 320px){
+
+	.navbar{
+		width: 100%;
+	}
+	.logo{
+	    width: 40px;
+	    height:40px;
+	    margin-left: -10px;
+	    padding:3px;
+	}
+	#degre{
+		font-size:15px;
+		margin-left:0px;
+		}
+	.navbar{
+		background-color:#080a03;
+	}
+	.brand{
+		color:rgba(255, 255, 255, 255);
+		text-shadow: 0 2px 2px rgba(250, 236, 0, 0.6);
+		letter-spacing:1px;
+	}
+	.typed{
+		font-size:18px;
+}
+	.carousel {
+  		margin-top:1px;
+}
+		.site-title, .site-desc{
+	 	color:#fff;
+
+	 }
+    #title{
+      font-size:50px;
+      margin-bottom:70%;
+    }
+		.site-title{
+	 	font-family:lobster;
+	 	text-transform:uppercase;
+	 	margin-top:10%;
+	 	padding:10px;
+	 	font-size:30px;
+	 }
+	 .site-inn{
+		padding:20px;
+		text-shadow:  0 10px 10px rgba(0, 5, 0, 0.5);
+		font-size:20px;
+		margin-bottom: 10%;
+	 }
+	.site-desc{
+		margin-top:5px;
+		padding:20px;
+		text-shadow:  0 10px 10px rgba(0, 5, 0, 0.5);
+		font-size:20px;
+		padding-left:10%;
+		margin-bottom: 30%;
+	}
+	.site-out{
+		margin-top:10px;
+		padding:20px;
+		text-shadow:  0 10px 10px rgba(0, 5, 0, 0.5);
+		padding-left:10%;
+		margin-bottom: 60%;
+	}
+	.section02{
+		background-color: none;
+		width:100%;
+		overflow: hidden;
+		margin-bottom: 1%;
+	}
+	.form-group label{
+		font-size: 16px;
+		letter-spacing: 1px;
+	}
+	.section02 .row{
+		width: 95%;
+		margin-left:2.5%;
+	}
+	.jumbotron{
+		width:100%;
+		margin-bottom: 3%;
+	}
+	.form-group input:focus ~ label,
+	.form-group input:valid ~ label{
+	    top:-19px;
+	    left:0px;
+	    color:#03a9f4;
+	    font-size: 12px;
+	    font-family: Alata;
+	    letter-spacing: 2px;
+	}
+
+	.form-group .label{
+		  margin-top:5px;
+	    font-size: 16px;
+      color:gray;
+	    padding:5px;
+	    letter-spacing: 1px;
+	}
+  .info .info{
+      font-size:13px;
+      height: 140px;
+    }
+
+	#custom-button{
+		padding: 5px;
+		margin-left: 10px;
+		border:none;
+		cursor: pointer;
+		border-radius: 5px;
+		font-weight: bold;
+	}
+	#custom-text{
+		margin-left:5px;
+		color:#aaa;
+
+	}
+	.form-flex{
+	    margin-top:-4%;
+	    margin-bottom: 7%;
+}
+	.form-group input:hover{
+		border-bottom:3px solid orange;
+		transition: .5s ease-in;
+		text-transform: uppercase;
+		transform: translateY(17%);
+		margin-bottom: 3px;
+	}
+	.form-group small{
+		letter-spacing: none;
+		font-size:10px;
+	}
+	.form-group .save-btn{
+		margin-left:55%;
+	}
+	.fa-upload{
+		color:#fff;
+	}
+	footer .section003 .heading-6{
+		font-size:10px;
+		color:#4f59e8;
+
+	}
+	.section003{
+		height:40px;
+	}
+
+}
+
+/*media query 768px*/
+@media (max-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+	.brand{
+	color:rgba(255, 255, 255, 255);
+	text-shadow: 0 2px 2px rgba(250, 236, 0, 0.6);
+	letter-spacing:1px;
+	overflow: hidden;
+}
+	.site-title{
+		 	margin-top:5%;
+	 }
+	 .site-desc{
+		margin-top:5px;
+		margin-bottom: 30%;
+	}
+	#title{
+	      font-size:65px;
+        margin-bottom:35%;
+	}
+	.section02{
+		width: 100%;
+	}
+	.row{
+		width: 100%;
+	}
+	.jumbotron{
+		width: 100%;
+	}
+
+  }
+
+  /*media query 640px*/
+@media (max-width: 640px){
+
+	#title{
+	      font-size:55px;
+        margin-bottom:40%;
+	}
+}
+
+/*media query 520px*/
+@media (max-width:520px){
+		#title{
+	      font-size:50px;
+        margin-bottom:60%;
+	}
+}
+
+/*media query 480px*/
+@media (max-width:480px){
+		#title{
+	      font-size:50px;
+        margin-bottom:60%;
+	}
+}

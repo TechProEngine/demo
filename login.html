@@ -1,0 +1,316 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content=" Church of God Mission International | Faith Arena Biodata Login" />
+    <title>Biodata-Login</title>
+    <link runat="server" rel="shortcut icon" href="images/favicon/cgm.png" type="image/x-icon"/>
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/log.css">
+  	<link rel="stylesheet" href="CSS/css/bootstrap.min.css">
+  	<link rel="stylesheet" href="CSS/css/mdb.min.css">
+   	<link rel="stylesheet" href="CSS/css/style.css">
+  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/?family=Roboto:300,400,500,700&display=swap">
+
+</head>
+<body>
+<header>
+
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="navbar">
+  <a href="login.php"><img src="images/logo/cgmi.jpg" class="logo fa-spin" alt="CGMI Logo"></a>
+  <a href="login.php" class="brand" id="degre" id="deg" style="color:#fff;">Faith Arena Biodata Login </a>
+    
+  <!-- Collapse button -->
+        <button class="navbar-toggler btn btn-sm" data-toggle="collapse" data-target="#basicExampleNav"
+        aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation"  href="#">
+            <i class="fas fa-bars fa-2x fav"></i></button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="basicExampleNav">
+
+        <!-- Links -->
+        <ul class="navbar-nav  ml-auto nav-flex">
+        <li class="nav-item active">
+        <a class="nav-link btn btn-round btn-elegant btn-sm" aria-pressed="true" data-toggle="modal" data-target="#GP"><em class="text-info">
+            <i class="fas fa-key fav fa-1x"  aria-hidden="true"></i>Get Password</em></a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link btn btn-round btn-elegant btn-sm" aria-pressed="true"  data-toggle="modal" data-target="#feed"><em class="text-info">
+            <i class="fas fa-comment-alt fav fa-1x" aria-hidden="true"></i>Feedback</em></a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link btn btn-round btn-elegant btn-sm" aria-pressed="true"  data-toggle="modal" data-target="#modalex"><em class="text-info">
+            <i class="fas fa-exclamation-circle fav fa-1x" aria-hidden="true"></i>Incomplete Registration</em></a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link btn btn-round btn-elegant btn-sm disabled" aria-pressed="true"  data-toggle="modal" data-target="#notactive"><em class="text-info">
+            <i class="fas fa-exclamation icon-black fa-1x" aria-hidden="true"></i>Invalid</em></a>
+        </li>
+</div>
+    </nav>
+</header>
+
+		<!-- Card -->
+    <div class="card peach-gradient">
+	  <div class="card-body">
+	    <form method="POST" class="form">
+        <p class="h4 text-center py-4">Bio Login</p>
+        
+	      <div class="md-form">
+	        <i class="fa fa-user prefix grey-text"></i>
+	        <input type="text" id="" name="username" class="form-control validate">
+	        <label for="username" class="font-weight-bold ">Username</label>
+	      </div>
+
+	      <div class="md-form">
+	        <i class="fa fa-lock prefix grey-text"></i>
+	        <input type="password" id="" name="user_pass" class="form-control validate">
+	        <label for="user_password" class="font-weight-bold ">Password</label>
+	      </div>
+
+	      <div class="text-center py-4 mt-3">
+	        <a class="btn blue-gradient" href="register.html" type="submit">Login</a>
+	      </div>
+	    </form>
+	  </div>
+	</div>
+	<!-- End of Card -->
+
+<!-- modal 0001 -->
+
+<!-- Modal -->
+<div class="modal fade" id="GP" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title style" id="exampleModalLabel">Get Password</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <form method="POST" class="form" >
+      <div class="modal-body">
+    <div class="form-group"><br/>
+    <label for="full name" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >Full Name:</label>
+    <input type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px; text-transform:capitalize;" id="" name="fname"  placeholder="---input---" required>
+  </div>
+
+  <div class="form-group">
+    <label for="mobile number" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >Mobile Number(s):</label>
+    <input type="number" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px; text-transform:capitalize;" id="" name="tel" placeholder="---input---" required>
+  </div>
+
+  <div class="form-group">
+    <label for="email" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >Email:</label>
+    <input type="email" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px; text-transform:capitalize;" id="" name="email" placeholder="Input a Valid Email Address" required>
+  </div>
+
+  <div class="form-group">
+    <label for="unit in church" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);">Unit In Church:</label>
+    <input type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px; text-transform:capitalize;" id="" name="uic" placeholder="---input---" required>
+  </div>
+
+  <div class="form-group">
+    <label for="group in church" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);">Group In Church:<small> If you are an ordained minister state it.</small></label>
+    <input type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px; text-transform:capitalize;" id="" name="gic" placeholder="Group Example: OM, ECMFI, CWFI, CYF, AFM, or KBM" required>
+  </div>
+
+  <div class="form-group">
+    <label for="request date" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);">Request Date:</label>
+    <input type="date" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px; text-transform:capitalize;" id="date" name="req_date"  required>
+  </div>
+
+ <div class="form">
+     <label class="label" >your profile picture:</label>
+     <input type="file" id="real-file" name="profile_img" hidden="hidden" required>
+      <button type="button"  class="btn-secondary" id="custom-button"><i class="fas upload fa-upload fa-1x"></i></button>
+         <span id="custom-text">No Pic, Yet.</span>
+   </div>
+</div>
+<div class="modal-footer">
+<a type="submit" class="btn btn-primary" href="login.html" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;" >Send</a>
+</div>
+       </form>
+    </div>
+  </div>
+</div>
+
+<!-- modal 0002 -->
+
+<!-- Modal -->
+<div class="modal fade" id="modalex" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title style" id="exampleModalLabel">Incomplete Registration</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <form method="POST" class="form" action="login.php" enctype="multipart/form-data" autocomplete="off">
+      <div class="modal-body">
+    <div class="form-group"><br/>
+    <label for="full name" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >Full Name:</label>
+    <input type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px; text-transform:capitalize;" id="" name="fname"  placeholder="---input---" required>
+  </div>
+
+  <div class="form-group">
+    <label for="mobile number" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >Mobile Number(s):</label>
+    <input type="number" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px; text-transform:capitalize;" id="" name="tel" placeholder="---input---" required>
+  </div>
+
+  <div class="form-group">
+    <label for="email" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >Email:</label>
+    <input type="email" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px; text-transform:capitalize;" id="" name="email" placeholder="Input a Valid Email Address" required>
+  </div>
+
+  <div class="form-group">
+    <label for="unit in church" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);">Unit In Church:</label>
+    <input type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px; text-transform:capitalize;" id="" name="uic" placeholder="---input---" required>
+  </div>
+
+  <div class="form-group">
+    <label for="group in church" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);">Group In Church:<small> If you are an ordained minister state it.</small></label>
+    <input type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px; text-transform:capitalize;" id="" name="gic" placeholder="Group Example: OM, ECMFI, CWFI, CYF, AFM, or KBM" required>
+  </div>
+
+  <div class="form-group">
+    <label for="request date" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);">Request Date:</label>
+    <input type="date" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px; text-transform:capitalize;" id="date" name="req_date" required>
+  </div>
+
+  <div class="form">
+     <label class="label" >your profile picture:</label>
+     <input type="file" id="file2" name="profile_img" hidden="hidden" required>
+      <button type="button"  class="btn-secondary" id="custom-btn2"><i class="fas upload fa-upload fa-1x"></i></button>
+         <span id="custom-text2">No Pic, Yet.</span>
+   </div>
+</div>
+<div class="modal-footer">
+<a type="submit" href="login.html" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;" class="btn btn-primary">Send</a>
+</div>
+       </form>
+    </div>
+  </div>
+</div>
+
+ <!-- modal 0003 -->
+
+<!-- Modal -->
+<div class="modal fade" id="feed" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title style" id="exampleModalLabel">Feedback Info</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <form method="POST" class="form" action="login.php" enctype="multipart/form-data" autocomplete="off">
+      <div class="modal-body">
+    <div class="form-group"><br/>
+    <label for="fullname" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >Full Name</label>
+    <input type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px;" id="" name="fname"  placeholder="---input---" required>
+  </div>
+
+  <div class="form-group">
+    <label for="mobile number" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >Mobile Number</label>
+    <input type="number" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px;" id="" name="tel" placeholder="---input---" required>
+  </div>
+
+  <div class="form-group">
+    <label for="email" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >Email</label>
+    <input type="email" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px;" id="" name="email" placeholder="Input an Active Email Address" required>
+  </div>
+
+  <div class="form-group">
+    <label for="unit in church" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >Unit In Church</label>
+    <input type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px;" id="" name="uic" placeholder="---input---" required>
+  </div>
+
+  <div class="form-group">
+    <label for="feedbackmessage" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >Comment</label>
+    <textarea class="form-control" title="Your Comments are always valid to Us" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px;" id="" name="feedback" placeholder="Your feedback is important to Us" rows="3" required></textarea>
+</div>
+
+<div class="form-group">
+    <label for="request date" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);">Feedback Date:</label>
+    <input type="date" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px; text-transform:capitalize;" id="" name="feedb_date" required>
+  </div>
+
+<div class="modal-footer">
+<a type="submit" href="login.html" class="btn btn-primary" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:2px;" >Send</a>
+</div>
+       </form>
+    </div>
+  </div>
+</div>
+
+
+<!-- modal invalid -->
+<!-- Modal -->
+<div class="modal fade" id="notactive" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title style" id="exampleModalLabel">Not Active</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+      <form method="POST" class="form" action="code.php" enctype="multipart/form-data" autocomplete="off">
+      <div class="modal-body">
+
+    <div class="form-group"><br/>
+    <label for="fullname" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >Full Name:</label>
+    <input type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px;" id="" name="fname"  placeholder="---input---" required>
+  </div>
+
+  <div class="form-group">
+    <label for="group in church" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >Group In Church:</label>
+    <input type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px;" id="" name="gic" placeholder="---input---" required>
+  </div>
+
+  <div class="form-group">
+    <label for="gender" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >Gender:</label>
+    <input type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px;" id="" name="gender" placeholder="---input---" required>
+  </div>
+
+  <div class="form-group">
+    <label for="mobile number" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >Mobile Number(s):</label>
+    <input type="number" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px;" id="" name="tel" placeholder="---input---" required>
+  </div>
+
+  <div class="form-group">
+    <label for="unit in church" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >Unit in Church:</label>
+    <input type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px;" id="" name="uic" placeholder="---input---" required>
+  </div>
+  
+  <div class="form-group">
+    <label for="emial" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >Email:</label>
+    <input type="email" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px;" id="" name="email" placeholder="---input---" required>
+  </div>
+
+<div class="modal-footer">
+<button type="submit" name="save_ecmfi" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:2px;" class="btn btn-primary">Send</button>
+</div>
+       </form>
+    </div>
+  </div>
+</div>
+<!-- End of Modal -->
+        
+
+
+
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <script type="text/javascript"></script>
+
+</body>
+</html>

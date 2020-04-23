@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Alata|Oswald:500&display=swap');
+
+
+.h4{
+	font-family: 'Lobster', cursive;
+	color:#fff;
+	opacity:0.8;
+}
+.style{
+	margin-left:130px;
+	padding:20px; font-weight:bold;
+	font-size: 20px;
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	letter-spacing:2px;
+	color:rgba(230, 78, 7, 0.904);
+	text-transform:uppercase;
+}
+.recieved{
+	margin-left:110px;
+	padding:10px; 
+	font-weight:bold;
+	font-size: 18px;
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	letter-spacing:2px;
+	color:rgba(230, 78, 7, 0.904);
+	text-transform:capitalize;
+}
+
+.form  .label{
+	position: relative;
+	color:rgba(255, 123, 0, 0.925);
+	margin-top:5px;
+	left:0px;
+	font-size: 16px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	text-transform: capitalize;
+	letter-spacing: 2px;
+	pointer-events: none;
+	transition: .5s;
+}
+
+/* uploading styling block 001*/
+#custom-button{
+	margin-left: 20px;
+	padding: 5px;
+	font-weight: bolder;
+	cursor: pointer;
+	border-radius: 3px;
+}
+#custom-text{
+	margin-left:10px;
+	color:#aaa;
+}
+/* End of uploading styling block */
+
+/* uploading styling block 002 */
+#custom-btn2{
+	margin-left: 20px;
+	padding: 5px;
+	font-weight: bolder;
+	cursor: pointer;
+	border-radius: 3px;
+}
+
+#custom-text2{
+	margin-left:10px;
+	color:#aaa;
+}
+
+/* End of uploading styling block */
+
+/* uploading styling block 003*/
+#custom-bttn{
+	margin-left: 20px;
+	padding: 5px;
+	font-weight: bolder;
+	cursor: pointer;
+	border-radius: 3px;
+}
+#custom-texxt{
+	margin-left:10px;
+	color:#aaa;
+}
+/* End of uploading styling block */
+
+/* uploading styling block 004*/
+#custom-btton{
+	margin-left: 20px;
+	padding: 5px;
+	font-weight: bolder;
+	cursor: pointer;
+	border-radius: 3px;
+}
+#custom-txxxt {
+	margin-left:10px;
+	color:#aaa;
+}
+/* End of uploading styling block */
+ 
+/* uploading styling block 005*/
+#custom-buttons{
+	margin-left: 20px;
+	padding: 5px;
+	font-weight: bolder;
+	cursor: pointer;
+	border-radius: 3px;
+}
+#custmom-texts {
+	margin-left:10px;
+	color:#aaa;
+}
+/* End of uploading styling block */
+
+/* uploading styling block 006*/
+#custom-butons{
+	margin-left: 20px;
+	padding: 5px;
+	font-weight: bolder;
+	cursor: pointer;
+	border-radius: 3px;
+}
+#custmom-texzts {
+	margin-left:10px;
+	color:#aaa;
+}
+/* End of uploading styling block */

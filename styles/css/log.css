@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis|Inconsolata|Josefin+Sans|Lobster|Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Alata|Oswald:500&display=swap');
+*{
+  margin:0%;
+  padding: 0%;
+  text-decoration: none;
+  font-family: Dosis;
+
+ 
+}
+body{
+	background: seashell;
+
+}
+.fav{
+	color:orange;
+}
+.logo{
+    position:relative;
+    width: 40px;
+    height:40px;
+    border-radius: 100%;
+    margin-left:5px;
+    overflow: hidden;
+    padding:-20px;
+}
+
+.navbar{
+	background-color:#131401;
+	width: 100%;
+}
+
+.brand{
+	color:#fff;
+	margin-left:10px;
+	text-transform:capitalize;
+	letter-spacing:3px;
+	font-family: Lobster;
+	text-shadow: 1px 2px 2px rgba(250, 250, 250);
+	font-weight: bold;
+	font-size:18px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Dosis|Inconsolata|Josefin+Sans|Lobster|Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Alata|Oswald:500&display=swap'); 
+.navbar a:hover{
+ 	text-decoration: none;
+ }
+
+
+/*media query 320px*/
+@media(max-width: 320px){
+
+	.navbar{
+		width: 100%;
+	}
+	.logo{
+	    width: 40px;
+	    height:40px;
+	    margin-left: -10px;
+	    padding:3px;
+	}
+	#degre{
+		font-size:14px;
+		margin-left:0px;
+		}
+	.navbar{
+		background-color:#080a03;
+	}
+	.brand{
+		color:rgba(255, 255, 255, 255);
+		text-shadow: 0 2px 5px rgba(51, 51, 43, 0.6);
+		letter-spacing:1px;
+	}
+
+
+/*media query 360px*/
+/* @media (max-width: 360px) {
+    .logo{
+	    width: 40px;
+	    height:40px;
+	    margin-left: -5px;
+	    padding:3px;
+	}
+
+	#degre{
+		font-size:5px;
+		margin-left:0px;
+		}
+}
+
+  } */
