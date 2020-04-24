@@ -88,7 +88,7 @@
 .box{
   	background: linear-gradient(to bottom right, #902086); color:orange;
   	margin-top: 2%;
-	  margin-bottom:1%;
+	margin-bottom:1%;
     font-size: 40px;
     font-weight: bold;
     font-family: 'Roboto Condensed';
@@ -98,31 +98,16 @@
  .site-title, .site-desc{
  	  color:#fff;
  }
- #title{
-     color: #fff;
-     text-transform:capitalize;
-     text-decoration:underline;
-     text-decoration-color: #fff;
-     font-size:80px;
-     margin-top:-35%;
- }
+
 
  .site-title{
    	font-family:lobster;
    	text-transform:uppercase;
    	text-shadow:  0 10px 10px rgba(0, 5, 0, 0.10);
-   	margin-top:-40%;
    	padding:20px;
-   	margin-bottom: 5%;
+   	margin-bottom: 25%;
    	font-size:50px;
  }
-.site-desc{
-	font-family:Oswald;
-	text-shadow:  0 10px 10px rgba(0, 5, 0, 0.5);
-	font-size:25px;
-	padding-left:5%;
-	padding:20px;
-}
 
 .box{
 	background: linear-gradient(to bottom right, #902086); color:orange;
@@ -133,13 +118,10 @@
     font-family: 'Roboto Condensed';
     overflow: hidden;
 }
-.heading-3{
-	color:orange;
-	text-transform: capitalize;
 
-}
 .typed{
 	color:orange;
+	margin-bottom:2%;
 }
 .section02{
 	position:relative;
@@ -352,38 +334,12 @@ footer .section003 .heading-6{
 	 	color:#fff;
 
 	 }
-    #title{
-      font-size:50px;
-      margin-bottom:70%;
-    }
+  
 		.site-title{
-	 	font-family:lobster;
-	 	text-transform:uppercase;
-	 	margin-top:10%;
+	 	margin-bottom:70%;
 	 	padding:10px;
-	 	font-size:30px;
+	 	font-size:40px;
 	 }
-	 .site-inn{
-		padding:20px;
-		text-shadow:  0 10px 10px rgba(0, 5, 0, 0.5);
-		font-size:20px;
-		margin-bottom: 10%;
-	 }
-	.site-desc{
-		margin-top:5px;
-		padding:20px;
-		text-shadow:  0 10px 10px rgba(0, 5, 0, 0.5);
-		font-size:20px;
-		padding-left:10%;
-		margin-bottom: 30%;
-	}
-	.site-out{
-		margin-top:10px;
-		padding:20px;
-		text-shadow:  0 10px 10px rgba(0, 5, 0, 0.5);
-		padding-left:10%;
-		margin-bottom: 60%;
-	}
 	.section02{
 		background-color: none;
 		width:100%;
@@ -481,16 +437,9 @@ footer .section003 .heading-6{
 	overflow: hidden;
 }
 	.site-title{
-		 	margin-top:5%;
+		/* margin-bottom:80%; */
 	 }
-	 .site-desc{
-		margin-top:5px;
-		margin-bottom: 30%;
-	}
-	#title{
-	      font-size:65px;
-        margin-bottom:35%;
-	}
+
 	.section02{
 		width: 100%;
 	}
@@ -503,27 +452,4 @@ footer .section003 .heading-6{
 
   }
 
-  /*media query 640px*/
-@media (max-width: 640px){
 
-	#title{
-	      font-size:55px;
-        margin-bottom:40%;
-	}
-}
-
-/*media query 520px*/
-@media (max-width:520px){
-		#title{
-	      font-size:50px;
-        margin-bottom:60%;
-	}
-}
-
-/*media query 480px*/
-@media (max-width:480px){
-		#title{
-	      font-size:50px;
-        margin-bottom:60%;
-	}
-}
