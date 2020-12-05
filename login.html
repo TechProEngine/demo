@@ -15,7 +15,7 @@
 	<link rel="stylesheet"  href="CSS/util.css" />
 	<link rel="stylesheet"  href="CSS/main.css" />
 	<link rel="stylesheet"  href="CSS/all.css" />
-	
+	<link rel="stylesheet"  href="CSS/material-design-iconic-font.min.css" />
   	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
   	<link rel="stylesheet" href="https://fonts.googleapis.com/?family=Roboto:300,400,500,700&display=swap">
 
@@ -44,10 +44,6 @@
         <li class="nav-item">
         <a class="nav-link btn btn-round btn-elegant btn-sm" aria-pressed="true"  data-toggle="modal" data-target="#feed"><em class="text-info">
             <i class="fas fa-comment-alt fav fa-1x" aria-hidden="true"></i>Feedback</em></a>
-        </li>
-        <li class="nav-item">
-        <a class="nav-link btn btn-round btn-elegant btn-sm" aria-pressed="true"  data-toggle="modal" data-target="#modalex"><em class="text-info">
-            <i class="fas fa-exclamation-circle fav fa-1x" aria-hidden="true"></i>Incomplete Registration</em></a>
         </li>
         <li class="nav-item">
         <a class="nav-link btn btn-round btn-elegant btn-sm disabled" aria-pressed="true"  data-toggle="modal" data-target="#notactive"><em class="text-info">
@@ -93,8 +89,8 @@
 <div class="modal fade" id="GP" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title style" id="exampleModalLabel">Get Password</h5>
+      <div class="modal-header bg-warning">
+        <h5 class="modal-title style text-white" id="exampleModalLabel">Get Password</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -121,11 +117,6 @@
     <input type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px; text-transform:capitalize;" id="" name="uic" placeholder="---input---" required>
   </div>
 
-  <div class="form-group">
-    <label for="group in church" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);">Group In Church:<small> If you are an ordained minister state it.</small></label>
-    <input type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px; text-transform:capitalize;" id="" name="gic" placeholder="Group Example: OM, ECMFI, CWFI, CYF, AFM, or KBM" required>
-  </div>
-
  <div class="form">
      <label class="label" >Profile Picture:</label>
      <input type="file" id="real-file" name="profile_img" hidden="hidden" required>
@@ -147,8 +138,8 @@
 <div class="modal fade" id="feed" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title style" id="exampleModalLabel">Feedback Info</h5>
+      <div class="modal-header gb-warning">
+        <h5 class="modal-title style text-white" id="exampleModalLabel">Feedback Info</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
