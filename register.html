@@ -12,7 +12,6 @@
     <link rel="stylesheet" type="text/css" href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" />
     <link rel="stylesheet"  href="CSS/font-awesome/css/font-awesome.min.css" />
     <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
-
 </head>
 <body>
         <header>
@@ -30,13 +29,10 @@
                 <div class="container">
                 <div class="carousel-caption">
                          <h2 class="site-title">church biodata</h2>
-                         <!-- <p class="site-desc">Your Information inputted are Highly Secured</p> -->
             </div>
           </div>
         </div>
-
     </div>
-
   </div>
       
   <!-- main section 000-->
@@ -53,7 +49,6 @@
              <div class="row justify-content-center">
                 <div class="jumbotron back">
                   <h6 class="text-info" style="margin-left:70%;">Input Correct Details</h6>
-                
                   <form method="POST" class="form"> 
                       <div class="form-group">
                         <input type="text" class="info" style="text-transform:capitalize;" title="Your First Name" required>
@@ -73,9 +68,7 @@
                     </div>
                     <div class="form-group">
                        <textarea class="info form-control" placeholder="Your Home Address" style="border:visible; text-transform: none; height:140px;" title="Your Home address Info" id="addr" required></textarea>
-                          <!-- home address -->
                     </div>
-
                     <div class="form-group">
                         <input type="text" class="info" title="Your Nationality" required>
                           <label>Nationality:</label>
@@ -90,39 +83,33 @@
                           <label>State of Origin:</label>
                     </div>
                     <div class="form-flex">
-                        <input type="text" placeholder="Date of Birth" style="border:visible; letter-spacing: 2px; font-weight: bold; " title="Your DOB" id="date-picker" class="form-control datepicker" >
+                        <input type="text" placeholder="Date of Birth" style="border:visible; letter-spacing: 2px; font-weight: bold;" title="Your DOB" id="date-picker" class="form-control datepicker" >
                     <!-- Date of Birth -->
-                    </div>
-                    <div class="form-group">
-                        <input type="number" class="info" title="Your Age" style="margin-top:10px;" required>
-                          <label>age:</label>
                     </div>
                      <div class="form-group">
                       <select type="text" class="form-control col-sm-14 mt-4" title="Your Gender" required>
                         <option class="default">Select Gender Type</option>
-                        <option value="male">Male</option>
-                         <option value="female">Female</option>
+                        <option value="">Male</option>
+                         <option value="">Female</option>
                        </select>     
                     </div>
-
                     <div class="form-group">
                       <select type="text" class="form-control col-sm-14 mt-4" title="Specify Your Marital Status" required>
                         <option >Select Marital Status</option>
-                        <option value="married">Married</option>
-                         <option value="single">Single</option>
-                         <option  class="divorced">Divorced</option>
-                        <option value="seperated">Seperated</option>
-                         <option value="widow">widow</option>
-                         <option value="widower">widower</option>
+                        <option value="">Married</option>
+                         <option value="">Single</option>
+                         <option  class="">Divorced</option>
+                        <option value="">Seperated</option>
+                         <option value="">widow</option>
+                         <option value="">widower</option>
                        </select>
                     </div>
                      <div class="form-group">
                         <input type="text" class="info" title="Specify Your Occupation at Your Working Place" required>
                           <label>occupation:</label>
                     </div>
-                   
                      <div class="form-group">
-                        <input type="text" class="info" title="Specify Your Unit in Church"  required>
+                        <input type="text" class="info" title="Specify Your Unit in Church" required>
                           <label>unit in church:</label>
                     </div>
                     
@@ -170,11 +157,10 @@
         </div>
 
     </main>
-
     <footer class="py-4 bg-light mt-auto">
       <div class="container-fluid">
           <div class="d-flex align-items-center justify-content-center small">
-              <div class="text-muted">Copyright &copy; 2020. Faith Arena Biodata. All Right Reserved || Developed by Joshua 12:30dev</div>
+              <div class="text-muted">Copyright &copy; 2021. Faith Arena Biodata. All Right Reserved || Developed by Joshua 12:30dev</div>
           </div>
       </div>
   </footer>
@@ -221,15 +207,7 @@
                 format: 'yyyy-mm-dd'
             });
         </script>
-      <script type="text/javascript">
-            // Data Picker Initialization
-          $('#date-picker0').datepicker({
-              uiLibrary: 'bootstrap4',
-              format: 'yyyy-mm-dd'
-          });
-        </script>
-
-        <script type="text/javascript">
+         <script type="text/javascript">
           $(".save-btn").on("click", function (e){
               $(this).toggleClass("load-btn");
           })
