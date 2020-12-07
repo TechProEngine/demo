@@ -19,12 +19,12 @@
 
 <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="navbar">
   <a href="search_record_field.html"><img src="images/logo/cgmi.jpg" class="logo fa-spin" alt="CGMI Logo"></a>
-  <a href="search_record_field.html" class="brand" id="degre" id="deg" style="color:#fff;"> Biodata Search Engine </a>
+  <a href="search_record_field.html" class="brand" id="degre" id="deg" style="color:#fff;"> Biodata Search Field </a>
     
   <!-- Collapse button -->
         <button class="navbar-toggler btn btn-sm" data-toggle="collapse" data-target="#basicExampleNav"
         aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation"  href="#">
-            <i class="fas fa-bars fa-2x fav"></i></button>
+            <i class="fas fa-bars fav"></i></button>
 
     <!-- Collapsible content -->
     <div class="collapse navbar-collapse" id="basicExampleNav">
@@ -58,12 +58,12 @@
           <div class="card mb-4">
 
             <!-- Card header -->
-             <div class="card-header om blue-gradient p-0 z-depth-1" role="tab" id="heading30">
+            <div class="card-header om blue-gradient p-0 z-depth-1" role="tab" id="heading30">
               <a data-toggle="collapse" data-parent="#accordionEx5" href="#collapse30" aria-expanded="true"
                 aria-controls="collapse30">
-                <img src="images/OM.png" class="p-3 mr-4 float-left white-text" width="70px;" height="70px;" aria-hidden="true" alt="Image">
+                <img src="images/om.png" class="p-3 mr-4 float-left white-text" width="70px;" height="70px;" aria-hidden="true" alt="Image">
                 <h6 class="text-uppercase white-text mb-0 py-3 mt-1">
-                  Search OM
+                  Search OM 
                 </h6>
               </a>
             </div>
@@ -74,16 +74,66 @@
               <div class="card-body rgba-black-light white-text z-depth-1">
               <div class="card-content">
                     <form >
-                              <div class="col-md-4">
-                           <input type="text" class="form-control text-info" name="search" style=" width:10em; font-family:Alata; text-transform:capitalize;" placeholder="By First Name">
-                           <button class="btn btn-info btn-sm" style="text-transform:capitalize; font-weight:bold; font-family:Alata; top:5px;"><i class="fab fa-2x fa-searchengin"></i></button>
+                            <div class="col-md-4">
+                           <input type="text" class="form-control text-info" name="search" style=" font-family:Alata; text-transform:capitalize;" placeholder="Search By First Name">
+                           <button class="btn btn-success" style=" font-weight:bold; font-family:Alata;" name="search_om"><i class="fab fa-searchengin"></i></button>
                         </div>
                    </form>
                    <div class="card mt-3 mb-4">
-                   <div class="card-header black-text"><i class="fas fa-table fav mr-1"></i><em style="font-family:Inconsolata; letter-spacing:1px;">Ordained Ministers Record</em></div>
+                   <div class="card-header black-text"><i class="fas fa-table fav mr-1"></i><em style="font-family:Inconsolata; letter-spacing:1px;">OM </em></div>
                     <div class="card-body">
              <div class="table-responsive">
-            
+            <table class="table table-bordered table-hover" id="" width="100%" cellspacing="0">
+            <thead>
+                             <tr>
+                                     <th class="th-sm fav">First Name</th>
+                                     <th class="th-sm fav">Middle Name</th>
+                                     <th class="th-sm fav">Surname</th>
+                                     <th class="th-sm fav">Mobile Number</th>
+                                     <th class="fav">Gender</th>
+                                     <th class="th-sm fav">Email</th>
+                                     <th class="th-sm fav">Status</th>                         
+                                  </tr>
+                             </thead>
+                             <tbody>
+                                 <tr>
+                                     <td style="text-transform:capitalize;">Joshua</td>
+                                     <td style="text-transform:capitalize;">Courage</td>
+                                     <td style="text-transform:capitalize;">Obasuyi</td>
+                                     <td>09038283728</td>
+                                     <td>Male</td>
+                                     <td>scholarbrainx@gmail.com</td>
+                                    <td style="text-transform:capitalize; color:green"><button class="btn btn-rounded btn-sm btn-success">Active</button></td>
+                        </tr>
+                 <tr>
+                                     <td style="text-transform:capitalize;">Racheal</td>
+                                     <td style="text-transform:capitalize;">favour</td>
+                                     <td style="text-transform:capitalize;">olatude</td>
+                                     <td>09023233230</td>
+                                     <td>Female</td>
+                                     <td>racheal@gmail.com</td>
+                                    <td style="text-transform:capitalize; color:green"><button class="btn btn-rounded btn-sm btn-success">Active</button></td>
+                        </tr>
+                           <tr>
+                                     <td style="text-transform:capitalize;">princess</td>
+                                     <td style="text-transform:capitalize;">kate</td>
+                                     <td style="text-transform:capitalize;">jamah</td>
+                                     <td>092930232</td>
+                                     <td>Female</td>
+                                     <td>princess@gmail.com</td>
+                                    <td style="text-transform:capitalize; color:green"><button class="btn btn-rounded btn-sm btn-success">Active</button></td>
+                        </tr>
+                           <tr>
+                                     <td style="text-transform:capitalize;">brainx</td>
+                                     <td style="text-transform:capitalize;">lukas</td>
+                                     <td style="text-transform:capitalize;">ositohawmen</td>
+                                     <td>09038283728</td>
+                                     <td>Male</td>
+                                     <td>james@gmail.com</td>
+                                    <td style="text-transform:capitalize;"><button class="btn btn-rounded btn-sm btn-danger">Inactive</button></td>
+                        </tr>
+                             </tbody>
+                         </table>
                  
                      </div>
                      </div>
@@ -115,15 +165,65 @@
         <div class="card-body rgba-black-light white-text z-depth-1">
         <form>
                 <div class="col-md-4">
-                           <input type="text" class="form-control text-info" name="search" style=" width:10em; font-family:Alata; text-transform:capitalize;" placeholder="By First Name">
-                           <button class="btn btn-info btn-sm" style="text-transform:capitalize; font-weight:bold; font-family:Alata; top:5px;"><i class="fab fa-2x fa-searchengin"></i></button>
+                <input type="text" class="form-control text-info" name="search" style=" font-family:Alata; text-transform:capitalize;" placeholder="Search By First Name">
+                <button class="btn btn-success" style=" font-weight:bold; font-family:Alata;" name="search_ecmfi"><i class="fab fa-searchengin"></i></button>
                         </div>
                    </form>
                    <div class="card mt-3 mb-4">
-                        <div class="card-header black-text"><i class="fas fa-table fav mr-1"></i><em style="font-family:Inconsolata; letter-spacing:1px;">ECMFI Records</em></div>
+                        <div class="card-header black-text"><i class="fas fa-table fav mr-1"></i><em style="font-family:Inconsolata; letter-spacing:1px;">ECMFI </em></div>
                     <div class="card-body">
              <div class="table-responsive">
-
+<table class="table table-bordered table-hover" id="" width="100%" cellspacing="0">
+            <thead>
+                             <tr>
+                                     <th class="th-sm fav">First Name</th>
+                                     <th class="th-sm fav">Middle Name</th>
+                                     <th class="th-sm fav">Surname</th>
+                                     <th class="th-sm fav">Mobile Number</th>
+                                     <th class="fav">Gender</th>
+                                     <th class="th-sm fav">Email</th>
+                                     <th class="th-sm fav">Status</th>                         
+                                  </tr>
+                             </thead>
+                             <tbody>
+                                 <tr>
+                                     <td style="text-transform:capitalize;">Joshua</td>
+                                     <td style="text-transform:capitalize;">Courage</td>
+                                     <td style="text-transform:capitalize;">Obasuyi</td>
+                                     <td>09038283728</td>
+                                     <td>Male</td>
+                                     <td>scholarbrainx@gmail.com</td>
+                                    <td style="text-transform:capitalize; color:green"><button class="btn btn-rounded btn-sm btn-success">Active</button></td>
+                        </tr>
+                 <tr>
+                                     <td style="text-transform:capitalize;">Racheal</td>
+                                     <td style="text-transform:capitalize;">favour</td>
+                                     <td style="text-transform:capitalize;">olatude</td>
+                                     <td>09023233230</td>
+                                     <td>Female</td>
+                                     <td>racheal@gmail.com</td>
+                                    <td style="text-transform:capitalize; color:green"><button class="btn btn-rounded btn-sm btn-success">Active</button></td>
+                        </tr>
+                           <tr>
+                                     <td style="text-transform:capitalize;">princess</td>
+                                     <td style="text-transform:capitalize;">kate</td>
+                                     <td style="text-transform:capitalize;">jamah</td>
+                                     <td>092930232</td>
+                                     <td>Female</td>
+                                     <td>princess@gmail.com</td>
+                                    <td style="text-transform:capitalize; color:green"><button class="btn btn-rounded btn-sm btn-success">Active</button></td>
+                        </tr>
+                           <tr>
+                                     <td style="text-transform:capitalize;">brainx</td>
+                                     <td style="text-transform:capitalize;">lukas</td>
+                                     <td style="text-transform:capitalize;">ositohawmen</td>
+                                     <td>09038283728</td>
+                                     <td>Male</td>
+                                     <td>james@gmail.com</td>
+                                    <td style="text-transform:capitalize;"><button class="btn btn-rounded btn-sm btn-danger">Inactive</button></td>
+                        </tr>
+                             </tbody>
+                         </table>
                      </div>
                      </div>
                      </div>
@@ -151,16 +251,66 @@
         data-parent="#accordionEx5">
         <div class="card-body rgba-black-light white-text z-depth-1">
         <form>
-                <div class="col-md-4">
-                           <input type="text" class="form-control text-info" name="search" style=" width:10em; font-family:Alata; text-transform:capitalize;" placeholder="By First Name">
-                           <button class="btn btn-info btn-sm" style="text-transform:capitalize; font-weight:bold; font-family:Alata; top:5px;"><i class="fab fa-2x fa-searchengin"></i></button>
-                        </div>
+            <div class="col-md-4">
+            <input type="text" class="form-control text-info" name="search" style=" font-family:Alata; text-transform:capitalize;" placeholder="Search By First Name">
+            <button class="btn btn-success" style=" font-weight:bold; font-family:Alata;" name="search_cwfi"><i class="fab fa-searchengin"></i></button>
+        </div>
                    </form>
                    <div class="card mt-3 mb-4">
-                   <div class="card-header black-text"><i class="fas fa-table fav mr-1"></i><em style="font-family:Inconsolata; letter-spacing:1px;">CWFI Record</em></div>
+                   <div class="card-header black-text"><i class="fas fa-table fav mr-1"></i><em style="font-family:Inconsolata; letter-spacing:1px;">CWFI </em></div>
                     <div class="card-body">
              <div class="table-responsive">
-             
+             <table class="table table-bordered table-hover" id="" width="100%" cellspacing="0">
+            <thead>
+                             <tr>
+                                     <th class="th-sm fav">First Name</th>
+                                     <th class="th-sm fav">Middle Name</th>
+                                     <th class="th-sm fav">Surname</th>
+                                     <th class="th-sm fav">Mobile Number</th>
+                                     <th class="fav">Gender</th>
+                                     <th class="th-sm fav">Email</th>
+                                     <th class="th-sm fav">Status</th>                         
+                                  </tr>
+                             </thead>
+                             <tbody>
+                                 <tr>
+                                     <td style="text-transform:capitalize;">Joshua</td>
+                                     <td style="text-transform:capitalize;">Courage</td>
+                                     <td style="text-transform:capitalize;">Obasuyi</td>
+                                     <td>09038283728</td>
+                                     <td>Male</td>
+                                     <td>scholarbrainx@gmail.com</td>
+                                    <td style="text-transform:capitalize; color:green"><button class="btn btn-rounded btn-sm btn-success">Active</button></td>
+                        </tr>
+                 <tr>
+                                     <td style="text-transform:capitalize;">Racheal</td>
+                                     <td style="text-transform:capitalize;">favour</td>
+                                     <td style="text-transform:capitalize;">olatude</td>
+                                     <td>09023233230</td>
+                                     <td>Female</td>
+                                     <td>racheal@gmail.com</td>
+                                    <td style="text-transform:capitalize; color:green"><button class="btn btn-rounded btn-sm btn-success">Active</button></td>
+                        </tr>
+                           <tr>
+                                     <td style="text-transform:capitalize;">princess</td>
+                                     <td style="text-transform:capitalize;">kate</td>
+                                     <td style="text-transform:capitalize;">jamah</td>
+                                     <td>092930232</td>
+                                     <td>Female</td>
+                                     <td>princess@gmail.com</td>
+                                    <td style="text-transform:capitalize; color:green"><button class="btn btn-rounded btn-sm btn-success">Active</button></td>
+                        </tr>
+                           <tr>
+                                     <td style="text-transform:capitalize;">brainx</td>
+                                     <td style="text-transform:capitalize;">lukas</td>
+                                     <td style="text-transform:capitalize;">ositohawmen</td>
+                                     <td>09038283728</td>
+                                     <td>Male</td>
+                                     <td>james@gmail.com</td>
+                                    <td style="text-transform:capitalize;"><button class="btn btn-rounded btn-sm btn-danger">Inactive</button></td>
+                        </tr>
+                             </tbody>
+                         </table>
                      </div>
                      </div>
                      </div>
@@ -188,16 +338,66 @@
         data-parent="#accordionEx5">
         <div class="card-body rgba-black-light white-text z-depth-1">
         <form >
-           <div class="col-md-4">
-                           <input type="text" class="form-control text-info" name="search" style=" width:10em; font-family:Alata; text-transform:capitalize;" placeholder="By First Name">
-                           <button class="btn btn-info btn-sm" style="text-transform:capitalize; font-weight:bold; font-family:Alata; top:5px;"><i class="fab fa-2x fa-searchengin"></i></button>
-                        </div>
+            <div class="col-md-4">
+            <input type="text" class="form-control text-info" name="search" style=" font-family:Alata; text-transform:capitalize;" placeholder="Search By First Name">
+            <button class="btn btn-success" style=" font-weight:bold; font-family:Alata;" name="search_cyf"><i class="fab fa-searchengin"></i></button>
+        </div>
                    </form>
                    <div class="card mt-3 mb-4">
-                   <div class="card-header black-text"><i class="fas fa-table fav mr-1"></i><em style="font-family:Inconsolata; letter-spacing:1px;">CYF Record</em></div>
+                   <div class="card-header black-text"><i class="fas fa-table fav mr-1"></i><em style="font-family:Inconsolata; letter-spacing:1px;">CYF </em></div>
                     <div class="card-body">
              <div class="table-responsive">
-            
+            <table class="table table-bordered table-hover" id="" width="100%" cellspacing="0">
+            <thead>
+                             <tr>
+                                     <th class="th-sm fav">First Name</th>
+                                     <th class="th-sm fav">Middle Name</th>
+                                     <th class="th-sm fav">Surname</th>
+                                     <th class="th-sm fav">Mobile Number</th>
+                                     <th class="fav">Gender</th>
+                                     <th class="th-sm fav">Email</th>
+                                     <th class="th-sm fav">Status</th>                         
+                                  </tr>
+                             </thead>
+                             <tbody>
+                                 <tr>
+                                     <td style="text-transform:capitalize;">Joshua</td>
+                                     <td style="text-transform:capitalize;">Courage</td>
+                                     <td style="text-transform:capitalize;">Obasuyi</td>
+                                     <td>09038283728</td>
+                                     <td>Male</td>
+                                     <td>scholarbrainx@gmail.com</td>
+                                    <td style="text-transform:capitalize; color:green"><button class="btn btn-rounded btn-sm btn-success">Active</button></td>
+                        </tr>
+                 <tr>
+                                     <td style="text-transform:capitalize;">Racheal</td>
+                                     <td style="text-transform:capitalize;">favour</td>
+                                     <td style="text-transform:capitalize;">olatude</td>
+                                     <td>09023233230</td>
+                                     <td>Female</td>
+                                     <td>racheal@gmail.com</td>
+                                    <td style="text-transform:capitalize; color:green"><button class="btn btn-rounded btn-sm btn-success">Active</button></td>
+                        </tr>
+                           <tr>
+                                     <td style="text-transform:capitalize;">princess</td>
+                                     <td style="text-transform:capitalize;">kate</td>
+                                     <td style="text-transform:capitalize;">jamah</td>
+                                     <td>092930232</td>
+                                     <td>Female</td>
+                                     <td>princess@gmail.com</td>
+                                    <td style="text-transform:capitalize; color:green"><button class="btn btn-rounded btn-sm btn-success">Active</button></td>
+                        </tr>
+                           <tr>
+                                     <td style="text-transform:capitalize;">brainx</td>
+                                     <td style="text-transform:capitalize;">lukas</td>
+                                     <td style="text-transform:capitalize;">ositohawmen</td>
+                                     <td>09038283728</td>
+                                     <td>Male</td>
+                                     <td>james@gmail.com</td>
+                                    <td style="text-transform:capitalize;"><button class="btn btn-rounded btn-sm btn-danger">Inactive</button></td>
+                        </tr>
+                             </tbody>
+                         </table>
                      </div>
                      </div>
                      </div>
@@ -226,15 +426,66 @@
         <div class="card-body rgba-black-light white-text z-depth-1">
         <form>
                     <div class="col-md-4">
-                           <input type="text" class="form-control text-info" name="search" style=" width:10em; font-family:Alata; text-transform:capitalize;" placeholder="By First Name">
-                           <button class="btn btn-info btn-sm" style="text-transform:capitalize; font-weight:bold; font-family:Alata; top:5px;"><i class="fab fa-2x fa-searchengin"></i></button>
-                        </div>
+                    <input type="text" class="form-control text-info" name="search" style=" font-family:Alata; text-transform:capitalize;" placeholder="Search By First Name">
+                    <button class="btn btn-success" style=" font-weight:bold; font-family:Alata;" name="search_afm"><i class="fab fa-searchengin"></i></button>
+                </div>
                    </form>
                    <div class="card mt-3 mb-4">
-                   <div class="card-header black-text"><i class="fas fa-table fav mr-1"></i><em style="font-family:Inconsolata; letter-spacing:1px;">AFM Record</em></div>
+                   <div class="card-header black-text"><i class="fas fa-table fav mr-1"></i><em style="font-family:Inconsolata; letter-spacing:1px;">AFM </em></div>
                     <div class="card-body">
              <div class="table-responsive">
-            
+            <table class="table table-bordered table-hover" id="" width="100%" cellspacing="0">
+<table class="table table-bordered table-hover" id="" width="100%" cellspacing="0">
+            <thead>
+                             <tr>
+                                     <th class="th-sm fav">First Name</th>
+                                     <th class="th-sm fav">Middle Name</th>
+                                     <th class="th-sm fav">Surname</th>
+                                     <th class="th-sm fav">Mobile Number</th>
+                                     <th class="fav">Gender</th>
+                                     <th class="th-sm fav">Email</th>
+                                     <th class="th-sm fav">Status</th>                         
+                                  </tr>
+                             </thead>
+                             <tbody>
+                                 <tr>
+                                     <td style="text-transform:capitalize;">Joshua</td>
+                                     <td style="text-transform:capitalize;">Courage</td>
+                                     <td style="text-transform:capitalize;">Obasuyi</td>
+                                     <td>09038283728</td>
+                                     <td>Male</td>
+                                     <td>scholarbrainx@gmail.com</td>
+                                    <td style="text-transform:capitalize; color:green"><button class="btn btn-rounded btn-sm btn-success">Active</button></td>
+                        </tr>
+                 <tr>
+                                     <td style="text-transform:capitalize;">Racheal</td>
+                                     <td style="text-transform:capitalize;">favour</td>
+                                     <td style="text-transform:capitalize;">olatude</td>
+                                     <td>09023233230</td>
+                                     <td>Female</td>
+                                     <td>racheal@gmail.com</td>
+                                    <td style="text-transform:capitalize; color:green"><button class="btn btn-rounded btn-sm btn-success">Active</button></td>
+                        </tr>
+                           <tr>
+                                     <td style="text-transform:capitalize;">princess</td>
+                                     <td style="text-transform:capitalize;">kate</td>
+                                     <td style="text-transform:capitalize;">jamah</td>
+                                     <td>092930232</td>
+                                     <td>Female</td>
+                                     <td>princess@gmail.com</td>
+                                    <td style="text-transform:capitalize; color:green"><button class="btn btn-rounded btn-sm btn-success">Active</button></td>
+                        </tr>
+                           <tr>
+                                     <td style="text-transform:capitalize;">brainx</td>
+                                     <td style="text-transform:capitalize;">lukas</td>
+                                     <td style="text-transform:capitalize;">ositohawmen</td>
+                                     <td>09038283728</td>
+                                     <td>Male</td>
+                                     <td>james@gmail.com</td>
+                                    <td style="text-transform:capitalize;"><button class="btn btn-rounded btn-sm btn-danger">Inactive</button></td>
+                        </tr>
+                             </tbody>
+                         </table>
                      </div>
                      </div>
                      </div>
@@ -263,16 +514,66 @@
         data-parent="#accordionEx5">
         <div class="card-body rgba-black-light white-text z-depth-1">
         <form >
-               <div class="col-md-4">
-                           <input type="text" class="form-control text-info" name="search" style=" width:10em; font-family:Alata; text-transform:capitalize;" placeholder="By First Name">
-                           <button class="btn btn-info btn-sm" style="text-transform:capitalize; font-weight:bold; font-family:Alata; top:5px;"><i class="fab fa-2x fa-searchengin"></i></button>
-                        </div>
+                <div class="col-md-4">
+                <input type="text" class="form-control text-info" name="search" style=" font-family:Alata; text-transform:capitalize;" placeholder="Search By First Name">
+                <button class="btn btn-success" style=" font-weight:bold; font-family:Alata;" name="search_kbm"><i class="fab fa-searchengin"></i></button>
+            </div>
                    </form>
                    <div class="card mt-3 mb-4">
-                   <div class="card-header black-text"><i class="fas fa-table fav mr-1"></i><em style="font-family:Inconsolata; letter-spacing:1px;">KBM Record</em></div>
+                   <div class="card-header black-text"><i class="fas fa-table fav mr-1"></i><em style="font-family:Inconsolata; letter-spacing:1px;">KBM </em></div>
                     <div class="card-body">
              <div class="table-responsive">
-            
+             <table class="table table-bordered table-hover" id="" width="100%" cellspacing="0">
+            <thead>
+                             <tr>
+                                     <th class="th-sm fav">First Name</th>
+                                     <th class="th-sm fav">Middle Name</th>
+                                     <th class="th-sm fav">Surname</th>
+                                     <th class="th-sm fav">Mobile Number</th>
+                                     <th class="fav">Gender</th>
+                                     <th class="th-sm fav">Email</th>
+                                     <th class="th-sm fav">Status</th>                         
+                                  </tr>
+                             </thead>
+                             <tbody>
+                                 <tr>
+                                     <td style="text-transform:capitalize;">Joshua</td>
+                                     <td style="text-transform:capitalize;">Courage</td>
+                                     <td style="text-transform:capitalize;">Obasuyi</td>
+                                     <td>09038283728</td>
+                                     <td>Male</td>
+                                     <td>scholarbrainx@gmail.com</td>
+                                    <td style="text-transform:capitalize; color:green"><button class="btn btn-rounded btn-sm btn-success">Active</button></td>
+                        </tr>
+                 <tr>
+                                     <td style="text-transform:capitalize;">Racheal</td>
+                                     <td style="text-transform:capitalize;">favour</td>
+                                     <td style="text-transform:capitalize;">olatude</td>
+                                     <td>09023233230</td>
+                                     <td>Female</td>
+                                     <td>racheal@gmail.com</td>
+                                    <td style="text-transform:capitalize; color:green"><button class="btn btn-rounded btn-sm btn-success">Active</button></td>
+                        </tr>
+                           <tr>
+                                     <td style="text-transform:capitalize;">princess</td>
+                                     <td style="text-transform:capitalize;">kate</td>
+                                     <td style="text-transform:capitalize;">jamah</td>
+                                     <td>092930232</td>
+                                     <td>Female</td>
+                                     <td>princess@gmail.com</td>
+                                    <td style="text-transform:capitalize; color:green"><button class="btn btn-rounded btn-sm btn-success">Active</button></td>
+                        </tr>
+                           <tr>
+                                     <td style="text-transform:capitalize;">brainx</td>
+                                     <td style="text-transform:capitalize;">lukas</td>
+                                     <td style="text-transform:capitalize;">ositohawmen</td>
+                                     <td>09038283728</td>
+                                     <td>Male</td>
+                                     <td>james@gmail.com</td>
+                                    <td style="text-transform:capitalize;"><button class="btn btn-rounded btn-sm btn-danger">Active</button></td>
+                        </tr>
+                             </tbody>
+                         </table>
                      </div>
                      </div>
                      </div>
@@ -285,40 +586,27 @@
 
       </div>
     </div>
-       <footer class="py-4  mt-auto">
+     <footer class="py-4  mt-auto">
     <div class="container-fluid">
         <div class="d-flex align-items-center justify-content-center small">
-            <div class="text-muted">Copyright &copy; 2021. Faith Arena Biodata. All Right Reserved || Developed by Joshua 12:30dev</div>
+            <div class="text-muted">Copyright &copy; 2021. Faith Arena Biodata. All Right Reserved || Developed by Joshua 12:30</div>
         </div>
     </div>
 </footer>
   </div>
   <!-- Content -->
+
 </div>
 <!-- Card -->
+
+
 </div>
 </div>
 
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
-<script src="js/popper/min.js"></script>
-<script src="js/scripts.js"></script>
 <script src="js/mdb.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js" crossorigin="anonymous"></script>
-<script src="assets/demo/chart-area.js"></script>
-<script src="assets/demo/chart-bar.js"></script>
 <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js" crossorigin="anonymous"></script>
-<script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js" crossorigin="anonymous"></script>
 <script src="assets/demo/datatables.js"></script>
 <script src="dist/https/www.unpackline/upload/load/animatesearch.js"></script>
-<script src="load_upload/loadup.js"></script>
-<script src="load_upload/loadup2.js" type="text/javascript"></script>
-<script src="load_upload/upload3/loadup3.js" type="text/javascript"></script>
-<script src="load_upload/upload4/loadup4.js" type="text/javascript"></script>
-<script src="load_upload/upload5/loadup5.js" type="text/javascript"></script>
-<script src="load_upload/upload6/loadup6.js" type="text/javascript"></script>
 <script src="js/addons/datatables.min.js" type="text/javascript"></script>
 <script src="js/addons/datatables-select.min.js" type="text/javascript"></script>
-<script src="js/popper.min.js" type="text/javascript"></script>
-<script src="js/popper.js" type="text/javascript"></script>
-<script src="js/edit_function/edit_users.js" type="text/javascript"></script> 
