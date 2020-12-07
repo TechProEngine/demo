@@ -1,3 +1,4 @@
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html lang="en">
 <head>
@@ -12,28 +13,27 @@
     <link rel="stylesheet" type="text/css" href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" />
     <link rel="stylesheet" href="CSS/css/mdb.min.css">
     <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
-
 </head>
 <body>
         <header>
 
         <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="navbar">
-          <a href="Reg-section.html"><img src="images/logo/cgmi.jpg" class="logo fa-spin" alt="CGMI Logo"></a>
-          <a href="reg-section.html" class="brand ml-2" id="degre" style="color:#fff;">Faith Arena Biodata Form </a>
+          <a href="Reg-section.php"><img src="images/logo/cgmi.jpg" class="logo fa-spin" alt="CGMI Logo"></a>
+          <a href="Reg-section.php" class="brand ml-2" id="degre" style="color:#fff;">Faith Arena Biodata Form </a>
 
        </header>
 
+
        <!-- main section 000-->
     <main>
-       <!-- Carousel -->
-       <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Carousel -->
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
       <div class="carousel-item active">
         <img class="bd-placeholder-img" width="100%" height="100%" src="images/003.jpg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"/>
                 <div class="container">
                 <div class="carousel-caption">
                          <h2 class="site-title">church biodata</h2>
-                         <!-- <p class="site-desc">Your Information inputted are Highly Secured</p> -->
             </div>
           </div>
         </div>
@@ -49,44 +49,44 @@
             <h5 class="heading-4 typed" id="typer">Step 2/2 Registration Phase</h5>
           </div>
         </div>
-
-
+       
 <!-- modal 0001 -->
 
 <!-- Modal -->
 <div class="modal fade" id="ordain" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title style" id="exampleModalLabel">OM</h5>
-       <h6 class="text-center"><em>Ordained Ministers</em></h6>
+      <div class="modal-header bg-warning">
+        <h5 class="modal-title style text-white" id="exampleModalLabel">OM</h5>
+       <h6 class="text-center"><em class="text-white"> Ordained Ministers</em></h6>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <form method="POST" class="form">
       <div class="modal-body">
+      <form method="POST" action="reg-section.php" enctype="multipart/form-data" autocomplete="off">
+      
     <div class="form-group"><br/>
-      <h6 class="text-success" style="margin-left:70%;">Input Correct Details</h6>
+    <h6 class="text-success" style="margin-left:70%;">Input Correct Details</h6>
     <label for="first name" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >First Name</label>
-    <input type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px;" id="" name="fname"  placeholder="---input---" required>
+    <input type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px; text-transform:capitalize;" name="fname"  placeholder="---input---" required>
   </div>
   <div class="form-group">
     <label for="middle name" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >Middle Name</label>
-    <input type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px;" id="" name="mname" placeholder="---input---" required>
+    <input type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px; text-transform:capitalize;" name="mname" placeholder="---input---" required>
   </div>
   <div class="form-group">
     <label for="surname" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >Surname</label>
-    <input type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px;" id="" name="lname" placeholder="---input---" required>
+    <input type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px; text-transform:capitalize;" name="lname" placeholder="---input---" required>
   </div>
   <div class="form-group">
     <label for="mobile number" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >Mobile Number</label>
-    <input type="number" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px;" id="" name="tel" placeholder="---input---" required>
+    <input type="number" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px; text-transform:capitalize;" name="tel" placeholder="---input---" required>
   </div>
 
   <div class="form-group">
     <label for="homea address" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >Home Address</label>
-    <textarea class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px;" id="" name="home_add" placeholder="---input---" rows="3" required></textarea>
+    <textarea class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px; text-transform:capitalize;" name="home_add" placeholder="---input---" rows="3" required></textarea>
 </div>
 
   <div class="form-group">
@@ -95,44 +95,52 @@
   </div>
 
   <div class="form-group">
-    <label for="age" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >Age</label>
-    <input type="number" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px;" id="" name="age"  placeholder="---input---" required>
-  </div>
-
-  <div class="form-group">
-    <label for="gender" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >Gender:</label>
-    <input type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px;" id="" name="gender"  placeholder="---input---" required>
-  </div>
+  <label for="gender" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >Gender:</label>
+      <select  type="text" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px; text-transform:capitalize;" class="form-control" id="" name="gender" required>
+        <option>Select Gender</option>
+        <option value="male">Male</option>
+          <option value="female">Female</option>
+        </select>               
+      </div>
 
       <div class="form-group">
     <label for="email" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >Email:</label>
-    <input type="email" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px;" id="" name="email" placeholder="---input---" required>
+    <input type="email" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px; text-transform:capitalize;" name="email" placeholder="---input---" required>
   </div>
 
   <div class="form-group">
     <label for="marital status" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >Marital Status:</label>
-    <input type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px;" id="" name="marista" placeholder="---input---" required>
+    <select type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px; text-transform:capitalize;" name="marista" placeholder="---input---" required>
+        <option >Select Marital Status</option>
+        <option value="married">Married</option>
+        <option value="single">Single</option>
+        <option  class="divorced">Divorced</option>
+        <option value="widow">widow</option>
+        <option value="widower">widower</option>
+    </select>     
+  </div>
+
+   <div class="form-group">
+    <label for="wedding anniversary" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; text-transform:capitalize; color:rgba(255, 123, 0, 0.925);" >wedding anniversary:</label>
+    <input type="date" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px; text-transform:capitalize;" name="wedani" placeholder="---input---" required>
   </div>
 
     <div class="form-group">
     <label for="occupation" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >Occupation:</label>
-    <input type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px;" id="" name="occup" placeholder="---input---" required>
+    <input type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px; text-transform:capitalize;" name="occup" placeholder="---input---" required>
   </div>
 
     <div class="form-group">
     <label for="unit in church" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >Unit in Church:<small>Can be more than one</small></label>
-    <input type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px;" id="" name="uic" placeholder="---input---" required>
+    <input type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px; text-transform:capitalize;" name="uic" placeholder="---input---" required>
   </div>
 
       <div class="form-group">
-      <label for="posion as ordained minister" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >Position:</label>
-    <input type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px;" id="" name="position_om" placeholder="---input---" required>
+      <label for="posion" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >Position:</label>
+    <input type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px; text-transform:capitalize;" name="position_om" placeholder="---input---" required>
   </div>
-
-      <input type="hidden" class="form-control" id="" name="status" placeholder="Default Value is Active " value="Active">
-
-<div class="form">
-     <label class="label" >profile picture:</label>
+<div> 
+     <label style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);">Profile Picture:</label>
      <input type="file" id="real-file" name="profile_img" hidden="hidden" required>
       <button type="button"  class="btn-secondary" id="custom-button"><i class="fas upload fa-upload fa-1x"></i></button>
          <span id="custom-text">No Pic, Yet.</span>
@@ -153,36 +161,36 @@
 <div class="modal fade" id="MMV" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title style" id="exampleModalLabel">ECMFI</h5>
-        <h6 class="text-center"><em>Empowered Christian Men's Fellowship International</em></h6>
+      <div class="modal-header bg-warning">
+        <h5 class="modal-title style text-white" id="exampleModalLabel">ECMFI</h5>
+        <h6 class="text-center"><em class="text-white">Empowered Christian Men's Fellowship International</em></h6>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <form method="POST" class="form">
       <div class="modal-body">
-<div class="form-group"><br/>
-  <h6 class="text-success" style="margin-left:70%;">Input Correct Details</h6>
+      <form method="POST" action="reg-section.php" enctype="multipart/form-data" autocomplete="off">
+  <div class="form-group"><br/>
+<h6 class="text-success" style="margin-left:70%;">Input Correct Details</h6>
     <label for="first name" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >First Name:</label>
-    <input type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px;" id="" name="fname"  placeholder="---input---" required>
+    <input type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px; text-transform:capitalize;" name="fname"  placeholder="---input---" required>
   </div>
   <div class="form-group">
     <label for="middle name" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >Middle Name:</label>
-    <input type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px;" id="" name="mname" placeholder="---input---" required>
+    <input type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px; text-transform:capitalize;" name="mname" placeholder="---input---" required>
   </div>
   <div class="form-group">
     <label for="surname" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >Surname:</label>
-    <input type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px;" id="" name="lname" placeholder="---input---" required>
+    <input type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px; text-transform:capitalize;" name="lname" placeholder="---input---" required>
   </div>
   <div class="form-group">
     <label for="mobile number" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >Mobile Number:</label>
-    <input type="number" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px;" id="" name="tel" placeholder="---input---" required>
+    <input type="number" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px; text-transform:capitalize;" name="tel" placeholder="---input---" required>
   </div>
 
   <div class="form-group">
-    <label for="exampleFormControlTextarea1" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >Home Address</label>
-    <textarea class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px;" id="" name="home_add" placeholder="---input---" rows="3" required></textarea>
+    <label for="home address" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >Home Address</label>
+    <textarea class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px; text-transform:capitalize;" name="home_add" placeholder="---input---" rows="3" required></textarea>
 </div>
 
   <div class="form-group">
@@ -190,40 +198,37 @@
   <input placeholder="Date of Birth" type="date" name="dob" class="form-control datepicker">
   </div>
 
-  <div class="form-group">
-    <label for="age" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >Age:</label>
-    <input type="number" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px;" id="" name="age"  placeholder="---input---" required>
-  </div>
-
     <div class="form-group">
     <label for="email" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >Email:</label>
-    <input type="email" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px;" id="" name="email"  placeholder="---input---" required>
+    <input type="email" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px; text-transform:capitalize;" name="email"  placeholder="---input---" required>
+  </div>
+
+ <div class="form-group">
+    <label for="wedding anniversary" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; text-transform:capitalize; color:rgba(255, 123, 0, 0.925);" >wedding anniversary:</label>
+    <input type="date" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px; text-transform:capitalize;" name="wedani" placeholder="---input---" required>
   </div>
 
     <div class="form-group">
     <label for="occupation" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >Occupation:</label>
-    <input type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px;" id="" name="occup" placeholder="---input---" required>
+    <input type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px; text-transform:capitalize;" name="occup" placeholder="---input---" required>
   </div>
 
     <div class="form-group">
     <label for="unit in church" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >Unit in Church:<small>Can be more than one</small></label>
-    <input type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px;" id="" name="uic" placeholder="---input---" required>
+    <input type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px; text-transform:capitalize;" name="uic" placeholder="---input---" required>
   </div>
 
       <div class="form-group">
     <label for="men's group number" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >Men's Group Number:</label>
-    <input type="number" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px;" id="" name="mens_group_num" placeholder="---input---" required>
+    <input type="number" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px; text-transform:capitalize;" name="mens_group_num" placeholder="---input---" required>
   </div>
 
       <div class="form-group">
       <label for="position in ECMFI" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >Position in ECMFI:<small>If leader state your Position. else put member </small></label>
-    <input type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px;" id="" name="position_ecmfi" placeholder="---input---" required>
+    <input type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px; text-transform:capitalize;" name="position_ecmfi" placeholder="---input---" required>
   </div>
-
-      <input type="hidden" class="form-control" id="" name="status" placeholder="Default Value is Active " value="Active">
-
-   <div class="form">
-     <label class="label" >profile picture:</label>
+   <div> 
+     <label style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);">Profile Picture:</label>
      <input type="file" id="file2" name="profile_img" hidden="hidden" required>
       <button type="button"  class="btn-secondary" id="custom-btn2"><i class="fas upload fa-upload fa-1x"></i></button>
          <span id="custom-text2">No Pic, Yet.</span>
@@ -243,36 +248,36 @@
 <div class="modal fade" id="CWFI" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title style" id="exampleModalLabel">CWFI</h5>
-        <h6 class="text-center"><em>Christian Women's Fellowship International</em></h6>
+      <div class="modal-header bg-warning">
+        <h5 class="modal-title style text-white" id="exampleModalLabel">CWFI</h5>
+        <h6 class="text-center"><em class="text-white">Christian Women's Fellowship International</em></h6>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <form method="POST" class="form">
+      <form method="POST" action="reg-section.php" enctype="multipart/form-data" autocomplete="off">
       <div class="modal-body">
 <div class="form-group"><br/>
-  <h6 class="text-success" style="margin-left:70%;">Input Correct Details</h6>
+<h6 class="text-success" style="margin-left:70%;">Input Correct Details</h6>
     <label for="first name" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >First Name</label>
-    <input type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px;" id="" name="fname"  placeholder="---input---" required>
+    <input type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px; text-transform:capitalize;" name="fname"  placeholder="---input---" required>
   </div>
   <div class="form-group">
     <label for="middle name" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px;; color:rgba(255, 123, 0, 0.925);" >Middle Name</label>
-    <input type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px;" id="" name="mname" placeholder="---input---" required>
+    <input type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px; text-transform:capitalize;" name="mname" placeholder="---input---" required>
   </div>
   <div class="form-group">
     <label for="surname" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >Surname</label>
-    <input type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px;" id="" name="lname" placeholder="---input---" required>
+    <input type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px; text-transform:capitalize;" name="lname" placeholder="---input---" required>
   </div>
   <div class="form-group">
     <label for="mobile number" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >Mobile Number</label>
-    <input type="number" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px;" id="" name="tel" placeholder="---input---" required>
+    <input type="number" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px; text-transform:capitalize;" name="tel" placeholder="---input---" required>
   </div>
 
   <div class="form-group">
     <label for="home address" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >Home Address</label>
-    <textarea class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px;" id="" name="home_add" placeholder="---input---" rows="3" required></textarea>
+    <textarea class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px; text-transform:capitalize;" name="home_add" placeholder="---input---" rows="3" required></textarea>
 </div>
 
 <div class="form-group">
@@ -281,39 +286,36 @@
   </div>
 
   <div class="form-group">
-    <label for="age" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >Age</label>
-    <input type="number" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px;" id="" name="age"  placeholder="---input---" required>
-  </div>
-
-  <div class="form-group">
 <label for="email" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >Email:</label>
-<input type="email" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px;" id="" name="email" placeholder="---input---" required>
+<input type="email" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px; text-transform:capitalize;" name="email" placeholder="---input---" required>
 </div>
+
+<div class="form-group">
+    <label for="wedding anniversary" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; text-transform:capitalize; color:rgba(255, 123, 0, 0.925);" >wedding anniversary:</label>
+    <input type="date" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px; text-transform:capitalize;" name="wedani" placeholder="---input---" required>
+  </div>
 
     <div class="form-group">
     <label for="occupation" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >Occupation:</label>
-    <input type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px;" id="" name="occup" placeholder="---input---" required>
+    <input type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px; text-transform:capitalize;" name="occup" placeholder="---input---" required>
   </div>
 
     <div class="form-group">
     <label for="unit in church" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >Unit in Church:<small>Can be more than one</small></label>
-    <input type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px;" id="" name="uic" placeholder="---input---" required>
+    <input type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px; text-transform:capitalize;" name="uic" placeholder="---input---" required>
   </div>
 
       <div class="form-group">
     <label for="women's group number" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >Women's Group Number:</label>
-    <input type="number" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px;" id="" name="womens_group_num" placeholder="---input---" required>
+    <input type="number" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px; text-transform:capitalize;" name="womens_group_num" placeholder="---input---" required>
   </div>
 
       <div class="form-group">
       <label for="position in cwfi" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >Position in CWFI:<small>If leader state your Position. else put member </small></label>
-    <input type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px;" id="" name="position_cwfi"placeholder="---input---" required>
+    <input type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px; text-transform:capitalize;" name="position_cwfi"placeholder="---input---" required>
   </div>
-
-     <input type="hidden" class="form-control" id="" name="status" placeholder="Default Value is Active " value="Active">
-
-<div class="form">
-     <label class="label" >profile picture:</label>
+<div> 
+     <label style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);">Profile Picture:</label>
      <input type="file" id="real-input" name="profile_img" hidden="hidden" required>
       <button type="button"  class="btn-secondary" id="custom-bttn"><i class="fas upload fa-upload fa-1x"></i></button>
          <span id="custom-texxt">No Pic, Yet.</span>
@@ -334,81 +336,82 @@
 <div class="modal fade" id="CYF" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title style" id="exampleModalLabel">CYF</h5>
-        <h6 class="text-center"><em>Christian Youth Fellowship</em></h6>
+      <div class="modal-header bg-warning">
+        <h5 class="modal-title style text-white" id="exampleModalLabel">CYF</h5>
+        <h6 class="text-center"><em class="text-white">Christian Youth Fellowship</em></h6>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <form method="POST" class="form">
+      <form method="POST" action="reg-section.php" enctype="multipart/form-data" autocomplete="off">
       <div class="modal-body">
 <div class="form-group"><br/>
-  <h6 class="text-success" style="margin-left:70%;">Input Correct Details</h6>
-    <label for="first name" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >First Name</label>
-    <input type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px;" id="" name="fname"  placeholder="---input---" required>
+<h6 class="text-success" style="margin-left:70%;">Input Correct Details</h6>
+    <label for="first name" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >First Name:</label>
+    <input type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px; text-transform:capitalize;" name="fname"  placeholder="---input---" required>
   </div>
   <div class="form-group">
-    <label for="middle name" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >Middle Name</label>
-    <input type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px;" id="" name="mname" placeholder="---input---" required>
+    <label for="middle name" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >Middle Name:</label>
+    <input type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px; text-transform:capitalize;" name="mname" placeholder="---input---" required>
   </div>
   <div class="form-group">
-    <label for="surname" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >Surname</label>
-    <input type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px;" id="" name="lname" placeholder="---input---" required>
+    <label for="surname" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >Surname:</label>
+    <input type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px; text-transform:capitalize;" name="lname" placeholder="---input---" required>
   </div>
   <div class="form-group">
-    <label for="mobile number" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >Mobile Number</label>
-    <input type="number" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px;" id="" name="tel" placeholder="---input---" required>
+    <label for="mobile number" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >Mobile Number:</label>
+    <input type="number" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px; text-transform:capitalize;" name="tel" placeholder="---input---" required>
   </div>
 
   <div class="form-group">
-    <label for="home address" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >Home Address</label>
-    <textarea class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px;" id="" name="home_add" placeholder="---input---" rows="3" required></textarea>
+    <label for="home address" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >Home Address:</label>
+    <textarea class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px; text-transform:capitalize;" name="home_add" placeholder="---input---" rows="3" required></textarea>
 </div>
 
 <div class="form-group">
-  <label for="dob" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >Date of Birth</label>
+  <label for="dob" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >Date of Birth:</label>
   <input placeholder="Date of Birth" type="date" name="dob" class="form-control datepicker">
   </div>
 
   <div class="form-group">
-    <label for="age" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >Age</label>
-    <input type="number" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px;" id="" name="age"  placeholder="---input---" required>
-  </div>
-  <div class="form-group">
     <label for="gender" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >Gender:</label>
-    <input type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px;" id="" name="gender"  placeholder="---input---" required>
+    <select type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px; text-transform:capitalize;" name="gender"  placeholder="---input---" required>
+    <option >Select Gender</option>
+    <option value="Male">Male</option>
+    <option value="Female">Female</option>
+        </select>     
   </div>
 
   <div class="form-group">
     <label for="email" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >Email:</label>
-    <input type="email" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px;" id="" name="email" placeholder="---input---" required>
+    <input type="email" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px; text-transform:capitalize;" name="email" placeholder="---input---" required>
   </div>
 
   <div class="form-group">
-    <label for="marital status " style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >Marital Status:</label>
-    <input type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px;" id="" name="marista" placeholder="---input---" required>
+  <label for="marital status " style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >Marital Status:</label>
+    <select type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px; text-transform:capitalize;" name="marista" placeholder="---input---" required>
+    <option >Select Marital Status</option>
+    <option value="married">Married</option>
+    <option value="single">Single</option>
+        </select>     
   </div>
 
     <div class="form-group">
     <label for="occupation" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >Occupation:</label>
-    <input type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px;" id="" name="occup" placeholder="---input---" required>
+    <input type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px; text-transform:capitalize;" name="occup" placeholder="---input---" required>
   </div>
 
     <div class="form-group">
     <label for="unit in church" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >Unit in Church:<small>Can be more than one</small></label>
-    <input type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px;" id="" name="uic" placeholder="---input---" required>
+    <input type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px; text-transform:capitalize;" name="uic" placeholder="---input---" required>
   </div>
 
       <div class="form-group">
     <label for="position in cyf" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >Position in CYF:<small>If leader state your Position. else put member </small></label>
-  <input type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px;" id="" name="position_cyf" placeholder="---input---" required>
+  <input type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px; text-transform:capitalize;" name="position_cyf" placeholder="---input---" required>
 </div>
-
-    <input type="hidden" class="form-control" id="" name="status" placeholder="Default Value is Active " value="Active">
-
-<div class="form">
-     <label class="label" >profile picture:</label>
+<div> 
+     <label style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);">Profile Picture:</label>
      <input type="file" id="realfileinput" name="profile_img" hidden="hidden" required>
       <button type="button"  class="btn-secondary" id="custom-btton"><i class="fas upload fa-upload fa-1x"></i></button>
          <span id="custom-txxxt">No Pic, Yet.</span>
@@ -429,37 +432,37 @@
 <div class="modal fade" id="AFM" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title style" id="exampleModalLabel">AFM</h5>
-          <h6 class="text-center"><em>Agape Force Ministry</em></h6>
+      <div class="modal-header bg-warning">
+        <h5 class="modal-title style text-white" id="exampleModalLabel">AFM</h5>
+          <h6 class="text-center"><em class="text-white">Agape Force Ministry</em></h6>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       
-      <form method="POST" class="form">
+      <form method="POST" action="reg-section.php" enctype="multipart/form-data" autocomplete="off">
       <div class="modal-body">
 <div class="form-group"><br/>
-  <h6 class="text-success" style="margin-left:70%;">Input Correct Details</h6>
+<h6 class="text-success" style="margin-left:70%;">Input Correct Details</h6>
     <label for="first name" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >First Name</label>
-    <input type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px;" id="" name="fname"  placeholder="---input---" required>
+    <input type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px; text-transform:capitalize;" name="fname"  placeholder="---input---" required>
   </div>
   <div class="form-group">
     <label for="middle name" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >Middle Name</label>
-    <input type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px;" id="" name="mname" placeholder="---input---" required>
+    <input type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px; text-transform:capitalize;" name="mname" placeholder="---input---" required>
   </div>
   <div class="form-group">
     <label for="surname" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >Surname</label>
-    <input type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px;" id="" name="lname" placeholder="---input---" required>
+    <input type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px; text-transform:capitalize;" name="lname" placeholder="---input---" required>
   </div>
   <div class="form-group">
     <label for="mobile number" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >Mobile Number</label>
-    <input type="number" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px;" id="" name="tel" placeholder="---input---" required>
+    <input type="number" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px; text-transform:capitalize;" name="tel" placeholder="---input---" required>
   </div>
 
   <div class="form-group">
     <label for="home address" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >Home Address</label>
-    <textarea class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px;" id="" name="home_add" placeholder="---input---" rows="3" required></textarea>
+    <textarea class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px; text-transform:capitalize;" name="home_add" placeholder="---input---" rows="3" required></textarea>
 </div>
 
 <div class="form-group">
@@ -468,39 +471,35 @@
   </div>
 
   <div class="form-group">
-    <label for="age" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >Age</label>
-    <input type="number" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px;" id="" name="age"  placeholder="---input---" required>
-  </div>
-
-  <div class="form-group">
     <label for="gender" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >Gender:</label>
-    <input type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px;" id="" name="gender"  placeholder="---input---" required>
+    <select type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px; text-transform:capitalize;" name="gender"  placeholder="---input---" required>
+    <option>Select Gender</option>
+    <option value="Male">Male</option>
+    <option value="Female">Female</option>
+        </select>     
   </div>
 
   <div class="form-group">
 <label for="email" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >Email:</label>
-<input type="email" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px;" id="" name="email" placeholder="---input---" required>
+<input type="email" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px; text-transform:capitalize;" name="email" placeholder="---input---" required>
 </div>
 
   <div class="form-group">
   <label for="occupation" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >Occupation:</label>
-  <input type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px;" id="" name="occup" placeholder="---input---" required>
+  <input type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px; text-transform:capitalize;" name="occup" placeholder="---input---" required>
 </div>
+
+<div class="form-group">
+    <label for="unit_in_church" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >Unit in Church:<small>Can be more than one</small></label>
+    <input type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px; text-transform:capitalize;" name="uic" placeholder="---input---" required>
+  </div>
 
      <div class="form-group">
     <label for="position in afm" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >Position in AFM:<small>If leader state your Position. else put member </small></label>
-    <input type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px;" id="" name="position_afm" placeholder="---input---" required>
+    <input type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px; text-transform:capitalize;" name="position_afm" placeholder="---input---" required>
   </div>
-
-    <div class="form-group">
-    <label for="" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >Unit in Church:<small>Can be more than one</small></label>
-    <input type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px;" id="" name="uic" placeholder="---input---" required>
-  </div>
-
-  <input type="hidden" class="form-control" id="" name="status" placeholder="Default Value is Active " value="Active">
-
-<div class="form">
-     <label class="label">profile picture:</label>
+<div> 
+     <label style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);">Profile Picture:</label>
      <input type="file" id="reaal-files" name="profile_img" hidden="hidden" required>
       <button type="button" class="btn-secondary" id="custom-buttons"><i class="fas upload fa-upload fa-1x"></i></button>
          <span id="custmom-texts">No Pic, Yet.</span>
@@ -509,6 +508,7 @@
 <div class="modal-footer">
 <button type="button" class="btn btn-danger" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:2px;" data-dismiss="modal">Close</button>
 <a type="submit"  href="secured.html" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;" class="btn btn-primary">Save</a>
+
 </div>
        </form>
     </div>
@@ -520,44 +520,44 @@
 <div class="modal fade" id="KBM" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title style" id="exampleModalLabel">KBM</h5>
-        <h6 class="text-center"><em>Kingdom Builders Ministry </em></h6>
+      <div class="modal-header bg-warning">
+        <h5 class="modal-title style text-white" id="exampleModalLabel">KBM</h5>
+        <h6 class="text-center"><em class="text-white">Kingdom Builders Ministry </em></h6>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <form method="POST" class="form">
+      <form method="POST" action="reg-section.php" enctype="multipart/form-data" autocomplete="off">
       <div class="modal-body">
 <div class="form-group"><br/>
-  <h6 class="text-success" style="margin-left:70%;">Input Correct Details</h6>
+<h6 class="text-success" style="margin-left:70%;">Input Correct Details</h6>
     <label for="first name" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >First Name:</label>
-    <input type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px;" id="" name="fname"  placeholder="---input---" required>
+    <input type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px; text-transform:capitalize;" name="fname"  placeholder="---input---" required>
   </div>
 
   <div class="form-group">
     <label for="middle name" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >Middle Name:</label>
-    <input type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px;" id="" name="mname" placeholder="---input---" required>
+    <input type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px; text-transform:capitalize;" name="mname" placeholder="---input---" required>
   </div>
 
   <div class="form-group">
     <label for="surname" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);">Surname:</label>
-    <input type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px;" id="" name="lname" placeholder="---input---" required>
+    <input type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px; text-transform:capitalize;" name="lname" placeholder="---input---" required>
   </div>
 
   <div class="form-group">
     <label for="mobile number" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >Mobile Number:</label>
-    <input type="number" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px;" id="" name="tel" placeholder="---input---" required>
+    <input type="number" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px; text-transform:capitalize;" name="tel" placeholder="---input---" required>
   </div>
 
    <div class="form-group">
     <label for="mobile number" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >Parents/Guardians Number:</label>
-    <input type="number" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px;" id="" name="par_gua_tel" placeholder="---input---" required>
+    <input type="number" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px; text-transform:capitalize;" name="par_gua_tel" placeholder="---input---" required>
   </div>
 
   <div class="form-group">
     <label for="home address" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >Home Address:</label>
-    <textarea class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px;" id="" name="home_add" placeholder="---input---" rows="3" required></textarea>
+    <textarea class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px; text-transform:capitalize;" name="home_add" placeholder="---input---" rows="3" required></textarea>
 </div>
 
 <div class="form-group">
@@ -567,33 +567,34 @@
 
   <div class="form-group">
     <label for="age" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >Age:</label>
-    <input type="number" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px;" id="" name="age"  placeholder="---input---" required>
+    <input type="number" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px; text-transform:capitalize;" name="age"  placeholder="---input---" required>
   </div>
 
   <div class="form-group">
     <label for="gender" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >Gender:</label>
-    <input type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px;" id="" name="gender"  placeholder="---input---" required>
+    <select type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px; text-transform:capitalize;" name="gender"  placeholder="---input---" required>
+    <option>Select Gender</option>
+    <option value="Male">Male</option>
+    <option value="Female">Female</option>
+        </select>     
   </div>
 
   <div class="form-group">
     <label for="email" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >Email:</label>
-    <input type="email" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px;" id="" name="email"  placeholder="---input---" required>
+    <input type="email" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px; text-transform:capitalize;" name="email"  placeholder="---input---" required>
   </div>
 
   <div class="form-group">
     <label for="children class number" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);">Children Class Number:</label>
-    <input type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px;" id="" name="children_class" placeholder="Example: Class 1" required>
+    <input type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px; text-transform:capitalize;" name="children_class" placeholder="Example: Class 1" required>
   </div>
 
     <div class="form-group">
     <label for="unit in church" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);" >Unit in Church:<small>Can be more than one</small></label>
-    <input type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px;" id="" name="uic" placeholder="---input---" required>
+    <input type="text" class="form-control" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:16px; text-transform:capitalize;" name="uic" placeholder="---input---" required>
   </div>
-
-    <input type="hidden" class="form-control" id="" name="status" placeholder="Default Value is Active " value="Active">
-  
-<div class="form">
-     <label class="label" >profile picture:</label>
+<div> 
+     <label style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; letter-spacing:1px; color:rgba(255, 123, 0, 0.925);">Profile Picture:</label>
      <input type="file" id="realla-file" name="profile_img" hidden="hidden" required>
       <button type="button" class="btn-secondary" id="custom-butons"><i class="fas upload fa-upload fa-1x"></i></button>
          <span id="custom-texzts">No Pic, Yet.</span>
@@ -611,6 +612,7 @@
 
 <div class="section002 album py-5 bg-light">
     <div class="container">
+    <div><em class="text-white error text-error"><?= $_SESSION['message'] ?></em></div>
       <div class="row">
         <div class="col-md-4">
           <div class="card om mb-4 shadow-sm">
@@ -714,17 +716,6 @@
   </div>
 
 </main>
-
-  <footer class="py-4 bg-light mt-auto">
-      <div class="container-fluid">
-          <div class="d-flex align-items-center justify-content-center small">
-              <div class="text-muted">Copyright &copy; 2020. Faith Arena Biodata. All Right Reserved || Developed by Joshua 12:30dev</div>
-          </div>
-      </div>
-  </footer>
-  </div>
-  </div>
-
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" ></script>
